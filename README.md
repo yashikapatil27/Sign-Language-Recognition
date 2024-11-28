@@ -20,13 +20,13 @@ This project implements various machine learning and deep learning models to cla
 
 ### Models and Architectures
 
-1. Logistic Regression
+1. **Logistic Regression**
 - A simple linear model with one fully connected layer.
 
-2. Artificial Neural Network (ANN)
+2. **Artificial Neural Network (ANN)**
  - A feedforward neural network with one hidden layer and ReLU activation.
 
-3. Convolutional Neural Networks (CNNs)
+3. **Convolutional Neural Networks (CNNs)**
 - CNN_Model_01: Basic CNN with two convolutional layers and max-pooling.
 - CNN_Model_02: Deeper CNN with additional dense layers for better classification.
 - CNN_Model_03: Four convolutional layers and multiple dense layers for robust learning.
@@ -35,18 +35,18 @@ This project implements various machine learning and deep learning models to cla
 ### Optimizers
 The following optimizers were tested for different models:
 
-1. Stochastic Gradient Descent (SGD)
+1. **Stochastic Gradient Descent (SGD)**
 - Used with a learning rate of 0.01 and momentum of 0.9.
 
-2. Adam
+2. **Adam**
 - Default learning rate of 0.001.
 - Effective for handling sparse gradients and general convergence.
 
-3. RMSprop
+3. **RMSprop**
 - Learning rate of 0.001.
 - Used for stabilizing training in deeper models like CNN_Model_04.
 
-4. Adagrad (experimentally tested on ANN)
+4. **Adagrad** (experimentally tested on ANN)
 - Adapts learning rates for each parameter, suitable for sparse data.
 
 ### Results
